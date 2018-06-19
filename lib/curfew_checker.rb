@@ -51,7 +51,7 @@ def platinum_curfew_checker(current_time, curfew_time)
     puts "You have #{time_left} hours until your curfew"
   end
 
-  platinum_curfew_checker("9", "12")
+  platinum_curfew_checker(9, 12)
 end 
 
 
