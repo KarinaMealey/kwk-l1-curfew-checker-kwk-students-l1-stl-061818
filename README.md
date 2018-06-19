@@ -9,8 +9,7 @@ Remember, it's helpful to take a look at the tests first to get an idea of how y
 
 In this section, you'll use an **if statement**. Here's the syntax:
 
-```ruby
-if condition_goes_here
+
   do_something_here
 end
 ```
@@ -29,7 +28,8 @@ Start by writing a simple method that takes in `time` as a parameter and uses an
 In the last section we wrote a simple **if statement**. Let's get a little more specific with an **if/else statement**. An **if/else statement** first checks the condition of the if statement. If that returns false, it moves onto the else statement and executes the code in that branch. In an **if/else statement**, some code will always get executed. Let's review the syntax:
 
 ```ruby
-if condition_goes_here
+def time(x)
+if x<
   do_something_here
 else
   do_something_else_here
