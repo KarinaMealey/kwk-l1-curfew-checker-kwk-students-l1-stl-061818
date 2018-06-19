@@ -15,8 +15,19 @@ def curfew_checker(time)
 end
 
 def complex_curfew_checker(time)
-  # code goes here
+  if time<10
+    puts "It's almost your curfew"
+    
+  elsif time=11
+  puts "Apparate home now!"
+  
+else time>11
+  puts "It's past your curfew!!"
 end
+end
+
+complex_curfew_checker(9)
+
 
 def deluxe_curfew_checker(time)
   # code goes here
