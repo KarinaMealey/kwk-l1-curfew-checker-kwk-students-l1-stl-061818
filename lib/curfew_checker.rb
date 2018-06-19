@@ -29,7 +29,8 @@ complex_curfew_checker(11)
 
 
 def deluxe_curfew_checker(time)
-  # code goes here
+  curfew == 11
+  if 
 end
 
 
