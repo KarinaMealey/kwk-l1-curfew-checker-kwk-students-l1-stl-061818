@@ -5,6 +5,7 @@ def simple_curfew_checker(time)
     puts "You shoould go back to your room"
   end
 end
+simple_curfew_checker(time)
 
 def curfew_checker(time)
   # code goes here
