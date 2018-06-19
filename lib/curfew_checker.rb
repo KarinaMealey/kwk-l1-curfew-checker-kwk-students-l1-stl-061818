@@ -31,12 +31,15 @@ complex_curfew_checker(11)
 def deluxe_curfew_checker(time)
   (curfew = 11)
   (time_left = curfew-time)
-  if curfew - time > 0 
+  if time_left > 0 
     puts "You still have #{time_left} hours left"
+    
+    elsif time_left <= 0
+    puts "You have no time left!"
   end
 end
 
-deluxe_curfew_checker(10)
+deluxe_curfew_checker(12)
 
 
 
