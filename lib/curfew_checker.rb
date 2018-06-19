@@ -26,7 +26,7 @@ else time>11
 end
 end
 
-complex_curfew_checker(9)
+complex_curfew_checker(11)
 
 
 def deluxe_curfew_checker(time)
