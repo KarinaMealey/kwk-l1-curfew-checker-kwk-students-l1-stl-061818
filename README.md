@@ -28,7 +28,7 @@ Start by writing a simple method that takes in `time` as a parameter and uses an
 In the last section we wrote a simple **if statement**. Let's get a little more specific with an **if/else statement**. An **if/else statement** first checks the condition of the if statement. If that returns false, it moves onto the else statement and executes the code in that branch. In an **if/else statement**, some code will always get executed. Let's review the syntax:
 
 ```ruby
-def time(x)
+
 if x<
   do_something_here
 else
