@@ -1,8 +1,8 @@
 def simple_curfew_checker(time)
-  if x<10:45
+  if x<10
     puts "You still have time left until your curfew"
-  else x>=10:45
-    puts "You shoould go back to your room"
+  else x>=10
+    puts "You shoould get back to your room soon"
   end
 end
 simple_curfew_checker(10:00)
