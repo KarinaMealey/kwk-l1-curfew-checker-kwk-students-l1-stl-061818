@@ -30,6 +30,8 @@ In the last section we wrote a simple **if statement**. Let's get a little more 
 ```ruby
 def time(x)
 if x<11 
+puts "you still have time left"
+
   do_something_here
 else
   do_something_else_here
