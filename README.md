@@ -29,7 +29,7 @@ In the last section we wrote a simple **if statement**. Let's get a little more 
 
 ```ruby
 def time(x)
-if x<
+if x<11 
   do_something_here
 else
   do_something_else_here
