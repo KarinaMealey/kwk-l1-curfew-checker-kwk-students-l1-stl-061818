@@ -29,17 +29,15 @@ In the last section we wrote a simple **if statement**. Let's get a little more 
 
 ```ruby
 def time(x)
-if x<11 
-puts "you still have time left until curfew"
+  if x<11 
+  puts "you still have time left until curfew"
 
+  else x>=11 
+  puts "Go back to your room!"
 
+  end
+end 
 
-
-
-  do_something_here
-else
-  do_something_else_here
-end
 ```
 For instance, this statement...
 ```ruby
